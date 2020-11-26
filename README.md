@@ -20,7 +20,11 @@ Post submissions to r/HardwareSwap must follow the title convention of the follo
 The initial brackets include the location, the [H] is what the user is selling, and the [W] is what the user wants. Then within the post content is typically the price of the item. 
 
 My function parseItem() uses regex to find these values and returns an array:
- '''# searching for location between the first [ and ]
+
+
+
+ '''python
+    # searching for location between the first [ and ]
     m = re.search(r'(?<=\[).+?(?=\])', title)
     if m:
         found = m.group(0)
