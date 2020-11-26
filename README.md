@@ -56,6 +56,13 @@ My function parseItem() uses regex to find these values and returns an array whi
     else:
         returnData.append("Price Not Available")
 ```
+<br />
+
+## Credits
+
+* Last.Fm API Wrapper - [Pylast](https://github.com/pylast/pylast)
+* Reddit API Wrapper - [PRAW](https://github.com/praw-dev/praw)
+
 
 
 
