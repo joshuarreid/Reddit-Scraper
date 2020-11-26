@@ -21,16 +21,8 @@ The initial brackets include the location, the [H] is what the user is selling, 
 
 My function parseItem() uses regex to find these values and returns an array:
 
-
-
- '''python
-    # searching for location between the first [ and ]
-    m = re.search(r'(?<=\[).+?(?=\])', title)
-    if m:
-        found = m.group(0)
-        returnData.append(found)
-    else:
-        returnData.append("Location Not Available")
+'''python
+   test
 '''
 
 
