@@ -1,7 +1,7 @@
 # Reddit r/HardwareSwap Scraper
 
 ## Description
- Script grabs posts from Reddit.com/r/HardwareSwap, parses the posts for needed information, and uploads the data to a SQL Database.
+ A script that grabbed posts from Reddit.com/r/HardwareSwap, parsed the posts for needed information, and uploaded the data to a SQL Database. In total it parsed 79,301 posts.
  
 <img src="https://github.com/joshuarreid/Reddit-Scraper/blob/main/HardwareSwap.png" />
 
