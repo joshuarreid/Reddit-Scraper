@@ -28,9 +28,9 @@ My function parseItem() uses regex to find these values and returns an array:
         returnData.append(found)
     else:
         returnData.append("Location Not Available")
+'''
 
-
-
+'''
     # searching between [H] and [W] to get items sold
     m = re.search('H](.*?)\[W]', title)
     if m:
@@ -42,8 +42,8 @@ My function parseItem() uses regex to find these values and returns an array:
             returnData.append(found)
         else:
             return None
-
-
+'''
+'''
     # searching for $ in post for price
     m = re.findall('(?:[\£\$\€]{1}[,\d]+.?\d*)', content)
     if m:
