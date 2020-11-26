@@ -15,7 +15,7 @@ A small startup, who was interested in selling computer hardware, needed the mar
 ## The Script
 Post submissions to r/HardwareSwap must follow the title convention of the following:
 
-<img src="https://github.com/joshuarreid/Reddit-Scraper/blob/main/PostTitle.png" />
+<img width="300" src="https://github.com/joshuarreid/Reddit-Scraper/blob/main/PostTitle.png" />
 
 
 
