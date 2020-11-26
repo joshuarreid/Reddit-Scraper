@@ -21,10 +21,11 @@ The initial brackets include the location, the [H] is what the user is selling, 
 
 My function parseItem() uses regex to find these values and returns an array:
 
-'''python
-   test
-'''
-
+```javascript
+function test() {
+ console.log("look ma’, no spaces");
+}
+```
 
 
 
